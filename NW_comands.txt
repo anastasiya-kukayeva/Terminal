@@ -1,0 +1,37 @@
+mkdir folder_1
+cd folder_1
+mkdir F_1 F_2 F_3
+cd F_1
+touch 1.txt 2.txt 3.txt
+touch 1.json 2.json
+mkdir dir_1 dir_2 dir_3
+ls -l
+cat 2.txt
+cat > 2.txt
+cd ..
+pwd
+cd folder_1
+ls -l
+mv 1.txt /F_1/F_2
+mv 1.txt /folder_1/F_1 /F_2
+mv 1.txt /folder_1/F_1 /folder_1/F_2
+cd F_1
+mv 1.txt /F_2/folder_1
+pwd
+mv 1.txt /e/NASTYA/QA/GIT/HW_github_1/folder_1/F_2
+mv 2.txt /e/NASTYA/QA/GIT/HW_github_1/folder_1/F_2
+cp 3.txt 1.json /e/NASTYA/QA/GIT/HW_github_1/folder_1/F_3
+cat n1 3.txt
+less -2 3.txt
+head -n3 3.txt
+head -n1 3.txt
+head -2 3.txt
+tail -f 3.txt
+date
+curl http://162.55.220.72:5005/terminal-hw-request
+history
+
+#!/bin/sh
+./script.txt
+#выводит строки после добавления в режиме реального времени
+tail -f script.txt
