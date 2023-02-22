@@ -1,4 +1,10 @@
 Anna
+<<<<<<< HEAD
 Ira
 Nastya
 Olga
+=======
+Olga
+Nastya
+Larisa
+>>>>>>> samsung_pay
