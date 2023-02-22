@@ -1,16 +1,10 @@
 Anna
-<<<<<<< HEAD
-<<<<<<< HEAD
 Andrey
 Nastya
 Olga
-=======
 Kristina
 Nastya
 Larisa
->>>>>>> samsung_pay
-=======
 Olga
 Nastya
 Larisa
->>>>>>> samsung_pay
