@@ -66,7 +66,7 @@ ls -la
 cd ..
 
 18. Вывести содержимое файла tf_3.txt в терминал.
-tail -f unner_dir_1/tf_3.txt
+tail -f inner_dir_1/tf_3.txt
 
 19. Найти путь к файлу tf_4.txt
 readlink -f tf_4.txt
@@ -126,14 +126,34 @@ tf_3.txt:- the sec 2
 
 30. Найти только путь и название файла в строках которых есть комбинация букв “second” в текущей папке
 cd ..
-grep -r second
-tf_2.txt:- the second 2
+grep -r -l second
+tf_2.txt
 
 31. Найти все строки во всех файлах где нет комбинации “second”
 grep -v  -r second
+1.txt:123
+1.txt:456
+1.txt:789
+inner_dir_1/tF_5.txt:Lake
+inner_dir_1/tF_5.txt:Mountains
+inner_dir_1/tF_5.txt:Hill
+inner_dir_1/tF_5.txt:Famous
+inner_dir_1/tF_5.txt:Enjoy
+inner_dir_1/tF_5.txt:Sea
+inner_dir_1/tF_5.txt:Country
+inner_dir_1/tF_5.txt:City
+inner_dir_1/tF_5.txt:Street
+inner_dir_1/tF_5.txt:House
+inner_dir_1/tF_5.txt:Flat
+inner_dir_1/tF_5.txt:Nastya
+inner_dir_1/tF_5.txt:Cat
+tf_4.txt:
 
 32. Найти только название и путь к файлам где нет комбинации “second”
-grep -v  -r  -w second
+grep -v  -r  -l second
+1.txt
+inner_dir_1/tF_5.txt
+tf_4.txt
 
 33. Вывести в терминал 4 последних строк любого текстового файла
 tail -n4 tf_2.txt
